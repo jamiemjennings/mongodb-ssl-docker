@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CERT_SUBJECT="/C=EX/ST=EX/L=Example/O=Example Org/OU=Example OU/CN=localhost"
+CERT_SUBJECT="/C=EX/ST=EX/L=Example/O=Example Org/OU=Example OU/CN=mongo.example"
 
 openssl genrsa -out ca.key 2048
 openssl req -x509 -new -nodes -key ca.key -sha256 -days 1024 -out ca.pem -subj "$CERT_SUBJECT"
