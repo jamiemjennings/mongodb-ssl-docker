@@ -14,7 +14,7 @@ WORKDIR /home/mongodb/ssl
 
 RUN ["/home/mongodb/scripts/gen-certs.sh"]
 
-FROM mongo:3.4-jessie AS prod
+FROM mongo:3.6-jessie AS prod
 
 COPY scripts /home/mongodb/scripts
 
