@@ -24,7 +24,8 @@ docker run -d -p 27017:27017 --name test-mongossl jamiemjennings/mongodb-ssl-doc
 Usernames and passwords are defined here (feel free to adjust and rebuild to suit your needs):
 https://github.com/jamiemjennings/mongodb-ssl-docker/blob/8a995f81581d6236d4b994e18cedadf38c4935bd/scripts/setup_user.sh#L3-L5
 
-The default credentials
+The default credentials are:
+
 | Username | Password |
 | -------- | -------- |
 | admin    | insecure |
